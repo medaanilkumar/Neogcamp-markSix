@@ -9,5 +9,5 @@ function translate(){
     fetch(url)
     .then(response=>response.json())
     .then(data=>output.value=data.contents.translated)
-    .catch(console.error("server is busy");)
+    .catch(console.error("server is busy"))
 }
